@@ -1,0 +1,509 @@
+[
+  {
+    "name": "Bulbasaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/bulbasaur"
+  },
+  {
+    "name": "Ivysaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/ivysaur"
+  },
+  {
+    "name": "Venusaur",
+    "types": [
+      "Grass",
+      "Poison",
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/venusaur"
+  },
+  {
+    "name": "Charmander",
+    "types": [
+      "Fire"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/charmander"
+  },
+  {
+    "name": "Charmeleon",
+    "types": [
+      "Fire"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/charmeleon"
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying",
+      "Fire",
+      "Dragon",
+      "Fire",
+      "Flying"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/charizard"
+  },
+  {
+    "name": "Squirtle",
+    "types": [
+      "Water"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/squirtle"
+  },
+  {
+    "name": "Wartortle",
+    "types": [
+      "Water"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/wartortle"
+  },
+  {
+    "name": "Blastoise",
+    "types": [
+      "Water",
+      "Water"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/blastoise"
+  },
+  {
+    "name": "Pikachu",
+    "types": [
+      "Electric",
+      "Electric"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/pikachu"
+  },
+  {
+    "name": "Raichu",
+    "types": [
+      "Electric",
+      "Electric",
+      "Psychic"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/raichu"
+  },
+  {
+    "name": "Jigglypuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/jigglypuff"
+  },
+  {
+    "name": "Meowth",
+    "types": [
+      "Normal",
+      "Dark",
+      "Steel"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/meowth"
+  },
+  {
+    "name": "Psyduck",
+    "types": [
+      "Water"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/psyduck"
+  },
+  {
+    "name": "Gengar",
+    "types": [
+      "Ghost",
+      "Poison",
+      "Ghost",
+      "Poison"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/gengar"
+  },
+  {
+    "name": "Snorlax",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/snorlax"
+  },
+  {
+    "name": "Eevee",
+    "types": [
+      "Normal",
+      "Normal"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/eevee"
+  },
+  {
+    "name": "Vaporeon",
+    "types": [
+      "Water"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/vaporeon"
+  },
+  {
+    "name": "Jolteon",
+    "types": [
+      "Electric"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/jolteon"
+  },
+  {
+    "name": "Flareon",
+    "types": [
+      "Fire"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/flareon"
+  },
+  {
+    "name": "Machop",
+    "types": [
+      "Fighting"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/machop"
+  },
+  {
+    "name": "Machoke",
+    "types": [
+      "Fighting"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/machoke"
+  },
+  {
+    "name": "Machamp",
+    "types": [
+      "Fighting"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/machamp"
+  },
+  {
+    "name": "Growlithe",
+    "types": [
+      "Fire",
+      "Fire",
+      "Rock"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/growlithe"
+  },
+  {
+    "name": "Arcanine",
+    "types": [
+      "Fire",
+      "Fire",
+      "Rock"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/arcanine"
+  },
+  {
+    "name": "Mew",
+    "types": [
+      "Psychic"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/mew"
+  },
+  {
+    "name": "Mewtwo",
+    "types": [
+      "Psychic",
+      "Psychic",
+      "Fighting",
+      "Psychic"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/mewtwo"
+  },
+  {
+    "name": "Articuno",
+    "types": [
+      "Ice",
+      "Flying",
+      "Psychic",
+      "Flying"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/articuno"
+  },
+  {
+    "name": "Zapdos",
+    "types": [
+      "Electric",
+      "Flying",
+      "Fighting",
+      "Flying"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/zapdos"
+  },
+  {
+    "name": "Moltres",
+    "types": [
+      "Fire",
+      "Flying",
+      "Dark",
+      "Flying"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/moltres"
+  },
+  {
+    "name": "Lugia",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/lugia"
+  },
+  {
+    "name": "Ho-oh",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/ho-oh"
+  },
+  {
+    "name": "Celebi",
+    "types": [
+      "Psychic",
+      "Grass"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/celebi"
+  },
+  {
+    "name": "Cyndaquil",
+    "types": [
+      "Fire"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/cyndaquil"
+  },
+  {
+    "name": "Typhlosion",
+    "types": [
+      "Fire",
+      "Fire",
+      "Ghost"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/typhlosion"
+  },
+  {
+    "name": "Totodile",
+    "types": [
+      "Water"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/totodile"
+  },
+  {
+    "name": "Mudkip",
+    "types": [
+      "Water"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/mudkip"
+  },
+  {
+    "name": "Torchic",
+    "types": [
+      "Fire"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/torchic"
+  },
+  {
+    "name": "Blaziken",
+    "types": [
+      "Fire",
+      "Fighting",
+      "Fire",
+      "Fighting"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/blaziken"
+  },
+  {
+    "name": "Turtwig",
+    "types": [
+      "Grass"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/turtwig"
+  },
+  {
+    "name": "Chimchar",
+    "types": [
+      "Fire"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/chimchar"
+  },
+  {
+    "name": "Piplup",
+    "types": [
+      "Water"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/piplup"
+  },
+  {
+    "name": "Lucario",
+    "types": [
+      "Fighting",
+      "Steel",
+      "Fighting",
+      "Steel"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/lucario"
+  },
+  {
+    "name": "Gardevoir",
+    "types": [
+      "Psychic",
+      "Fairy",
+      "Psychic",
+      "Fairy"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/gardevoir"
+  },
+  {
+    "name": "Garchomp",
+    "types": [
+      "Dragon",
+      "Ground",
+      "Dragon",
+      "Ground"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/garchomp"
+  },
+  {
+    "name": "Togepi",
+    "types": [
+      "Fairy"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/togepi"
+  },
+  {
+    "name": "Ditto",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/ditto"
+  },
+  {
+    "name": "Scyther",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/scyther"
+  },
+  {
+    "name": "Dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/dragonite"
+  },
+  {
+    "name": "Alakazam",
+    "types": [
+      "Psychic",
+      "Psychic"
+    ],
+    "base_stats": {},
+    "description": "No description available.",
+    "url": "https://pokemondb.net/pokedex/alakazam"
+  }
+]
