@@ -29,7 +29,7 @@ for name in pokemonNames:
 
     # Types (Fire, Electric, etc.)
     typeTags = soup.select(".vitals-table td a.type-icon")
-    types = [tag.text for tag in typeTags]
+    types = list(set(tag.text for tag in typeTags))
 
     base_stats = {}
 

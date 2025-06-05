@@ -33,8 +33,6 @@
     "name": "Venusaur",
     "types": [
       "Grass",
-      "Poison",
-      "Grass",
       "Poison"
     ],
     "base_stats": {
@@ -78,10 +76,7 @@
     "name": "Charizard",
     "types": [
       "Fire",
-      "Flying",
-      "Fire",
       "Dragon",
-      "Fire",
       "Flying"
     ],
     "base_stats": {
@@ -124,7 +119,6 @@
   {
     "name": "Blastoise",
     "types": [
-      "Water",
       "Water"
     ],
     "base_stats": {
@@ -139,7 +133,6 @@
   {
     "name": "Pikachu",
     "types": [
-      "Electric",
       "Electric"
     ],
     "base_stats": {
@@ -154,9 +147,8 @@
   {
     "name": "Raichu",
     "types": [
-      "Electric",
-      "Electric",
-      "Psychic"
+      "Psychic",
+      "Electric"
     ],
     "base_stats": {
       "HP": 60,
@@ -185,8 +177,8 @@
   {
     "name": "Meowth",
     "types": [
-      "Normal",
       "Dark",
+      "Normal",
       "Steel"
     ],
     "base_stats": {
@@ -215,10 +207,8 @@
   {
     "name": "Gengar",
     "types": [
-      "Ghost",
       "Poison",
-      "Ghost",
-      "Poison"
+      "Ghost"
     ],
     "base_stats": {
       "HP": 60,
@@ -246,7 +236,6 @@
   {
     "name": "Eevee",
     "types": [
-      "Normal",
       "Normal"
     ],
     "base_stats": {
@@ -346,7 +335,6 @@
     "name": "Growlithe",
     "types": [
       "Fire",
-      "Fire",
       "Rock"
     ],
     "base_stats": {
@@ -361,7 +349,6 @@
   {
     "name": "Arcanine",
     "types": [
-      "Fire",
       "Fire",
       "Rock"
     ],
@@ -392,9 +379,7 @@
     "name": "Mewtwo",
     "types": [
       "Psychic",
-      "Psychic",
-      "Fighting",
-      "Psychic"
+      "Fighting"
     ],
     "base_stats": {
       "HP": 106,
@@ -408,9 +393,8 @@
   {
     "name": "Articuno",
     "types": [
-      "Ice",
-      "Flying",
       "Psychic",
+      "Ice",
       "Flying"
     ],
     "base_stats": {
@@ -425,9 +409,8 @@
   {
     "name": "Zapdos",
     "types": [
-      "Electric",
-      "Flying",
       "Fighting",
+      "Electric",
       "Flying"
     ],
     "base_stats": {
@@ -443,7 +426,6 @@
     "name": "Moltres",
     "types": [
       "Fire",
-      "Flying",
       "Dark",
       "Flying"
     ],
@@ -519,7 +501,6 @@
     "name": "Typhlosion",
     "types": [
       "Fire",
-      "Fire",
       "Ghost"
     ],
     "base_stats": {
@@ -576,8 +557,6 @@
   {
     "name": "Blaziken",
     "types": [
-      "Fire",
-      "Fighting",
       "Fire",
       "Fighting"
     ],
@@ -636,8 +615,6 @@
     "name": "Lucario",
     "types": [
       "Fighting",
-      "Steel",
-      "Fighting",
       "Steel"
     ],
     "base_stats": {
@@ -653,8 +630,6 @@
     "name": "Gardevoir",
     "types": [
       "Psychic",
-      "Fairy",
-      "Psychic",
       "Fairy"
     ],
     "base_stats": {
@@ -669,8 +644,6 @@
   {
     "name": "Garchomp",
     "types": [
-      "Dragon",
-      "Ground",
       "Dragon",
       "Ground"
     ],
@@ -744,7 +717,6 @@
   {
     "name": "Alakazam",
     "types": [
-      "Psychic",
       "Psychic"
     ],
     "base_stats": {
