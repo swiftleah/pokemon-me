@@ -31,21 +31,18 @@ for name in pokemonNames:
     typeTags = soup.select(".vitals-table td a.type-icon")
     types = [tag.text for tag in typeTags]
 
+    base_stats = {}
+
     # Stats
-    statRows = soup.select("table.vitals-table tr") 
-    stats = {}
-    for row in statRows:
-        # find all <td> elements in this row
-        cells = row.find_all("td")
-        # only process rows with 2 <td> (stat value & extra info)
-        if len(cells) == 2:
-            # get name of stat from <th>
-            statName = row.find("th").text.strip()
-            # get value of stat from first <td> element
-            statValue = cells[0].text.strip()
-            if statName in ["HP", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed"]:
-                # save stat in dict stats with stat name as key
-                stats[statName] = int(statValue)
+    resp_scroll_div = soup.find("div", class_="resp-scroll")
+    vitals_table = resp_scroll_div.find("table", class_="vitals-table")
+
+    for row in vitals_table.tbody.find_all("tr"):
+        stat_name = row.find("th").text.strip()
+        stat_value_cell = row.find("td", class_="cell-num")
+
+        if stat_name in ["HP", "Attack", "Defense", "Speed"]:
+            base_stats[stat_name] = int(stat_value_cell.text.strip())
 
     try:
         description = soup.select_one("#dex-flavor .resp-scroll p").text.strip()
@@ -55,12 +52,12 @@ for name in pokemonNames:
     pokemonData.append({
         "name": pokeName,
         "types": types,
-        "base_stats": stats,
+        "base_stats": base_stats,
         "description": description,
         "url": url
     })
 
     time.sleep(1)
 
-with open("main_pokemon_data.json", "w") as f:
-    json.dump(pokemonData, f, indent=2)
+    with open("main_pokemon_data.json", "w") as f:
+        json.dump(pokemonData, f, indent=2)
