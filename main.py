@@ -41,7 +41,7 @@ for name in pokemonNames:
         stat_name = row.find("th").text.strip()
         stat_value_cell = row.find("td", class_="cell-num")
 
-        if stat_name in ["HP", "Attack", "Defense", "Speed"]:
+        if stat_name in ["HP", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed"]:
             base_stats[stat_name] = int(stat_value_cell.text.strip())
 
     try:

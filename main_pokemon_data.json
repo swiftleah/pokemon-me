@@ -2,13 +2,15 @@
   {
     "name": "Bulbasaur",
     "types": [
-      "Grass",
-      "Poison"
+      "Poison",
+      "Grass"
     ],
     "base_stats": {
       "HP": 45,
       "Attack": 49,
       "Defense": 49,
+      "Sp. Atk": 65,
+      "Sp. Def": 65,
       "Speed": 45
     },
     "description": "No description available.",
@@ -17,13 +19,15 @@
   {
     "name": "Ivysaur",
     "types": [
-      "Grass",
-      "Poison"
+      "Poison",
+      "Grass"
     ],
     "base_stats": {
       "HP": 60,
       "Attack": 62,
       "Defense": 63,
+      "Sp. Atk": 80,
+      "Sp. Def": 80,
       "Speed": 60
     },
     "description": "No description available.",
@@ -32,13 +36,15 @@
   {
     "name": "Venusaur",
     "types": [
-      "Grass",
-      "Poison"
+      "Poison",
+      "Grass"
     ],
     "base_stats": {
       "HP": 80,
       "Attack": 82,
       "Defense": 83,
+      "Sp. Atk": 100,
+      "Sp. Def": 100,
       "Speed": 80
     },
     "description": "No description available.",
@@ -53,6 +59,8 @@
       "HP": 39,
       "Attack": 52,
       "Defense": 43,
+      "Sp. Atk": 60,
+      "Sp. Def": 50,
       "Speed": 65
     },
     "description": "No description available.",
@@ -67,6 +75,8 @@
       "HP": 58,
       "Attack": 64,
       "Defense": 58,
+      "Sp. Atk": 80,
+      "Sp. Def": 65,
       "Speed": 80
     },
     "description": "No description available.",
@@ -75,14 +85,16 @@
   {
     "name": "Charizard",
     "types": [
+      "Flying",
       "Fire",
-      "Dragon",
-      "Flying"
+      "Dragon"
     ],
     "base_stats": {
       "HP": 78,
       "Attack": 84,
       "Defense": 78,
+      "Sp. Atk": 109,
+      "Sp. Def": 85,
       "Speed": 100
     },
     "description": "No description available.",
@@ -97,6 +109,8 @@
       "HP": 44,
       "Attack": 48,
       "Defense": 65,
+      "Sp. Atk": 50,
+      "Sp. Def": 64,
       "Speed": 43
     },
     "description": "No description available.",
@@ -111,6 +125,8 @@
       "HP": 59,
       "Attack": 63,
       "Defense": 80,
+      "Sp. Atk": 65,
+      "Sp. Def": 80,
       "Speed": 58
     },
     "description": "No description available.",
@@ -125,6 +141,8 @@
       "HP": 79,
       "Attack": 83,
       "Defense": 100,
+      "Sp. Atk": 85,
+      "Sp. Def": 105,
       "Speed": 78
     },
     "description": "No description available.",
@@ -139,6 +157,8 @@
       "HP": 35,
       "Attack": 55,
       "Defense": 40,
+      "Sp. Atk": 50,
+      "Sp. Def": 50,
       "Speed": 90
     },
     "description": "No description available.",
@@ -147,13 +167,15 @@
   {
     "name": "Raichu",
     "types": [
-      "Psychic",
-      "Electric"
+      "Electric",
+      "Psychic"
     ],
     "base_stats": {
       "HP": 60,
       "Attack": 90,
       "Defense": 55,
+      "Sp. Atk": 90,
+      "Sp. Def": 80,
       "Speed": 110
     },
     "description": "No description available.",
@@ -162,13 +184,15 @@
   {
     "name": "Jigglypuff",
     "types": [
-      "Normal",
-      "Fairy"
+      "Fairy",
+      "Normal"
     ],
     "base_stats": {
       "HP": 115,
       "Attack": 45,
       "Defense": 20,
+      "Sp. Atk": 45,
+      "Sp. Def": 25,
       "Speed": 20
     },
     "description": "No description available.",
@@ -177,14 +201,16 @@
   {
     "name": "Meowth",
     "types": [
+      "Steel",
       "Dark",
-      "Normal",
-      "Steel"
+      "Normal"
     ],
     "base_stats": {
       "HP": 40,
       "Attack": 45,
       "Defense": 35,
+      "Sp. Atk": 40,
+      "Sp. Def": 40,
       "Speed": 90
     },
     "description": "No description available.",
@@ -199,6 +225,8 @@
       "HP": 50,
       "Attack": 52,
       "Defense": 48,
+      "Sp. Atk": 65,
+      "Sp. Def": 50,
       "Speed": 55
     },
     "description": "No description available.",
@@ -207,13 +235,15 @@
   {
     "name": "Gengar",
     "types": [
-      "Poison",
-      "Ghost"
+      "Ghost",
+      "Poison"
     ],
     "base_stats": {
       "HP": 60,
       "Attack": 65,
       "Defense": 60,
+      "Sp. Atk": 130,
+      "Sp. Def": 75,
       "Speed": 110
     },
     "description": "No description available.",
@@ -228,6 +258,8 @@
       "HP": 160,
       "Attack": 110,
       "Defense": 65,
+      "Sp. Atk": 65,
+      "Sp. Def": 110,
       "Speed": 30
     },
     "description": "No description available.",
@@ -242,6 +274,8 @@
       "HP": 55,
       "Attack": 55,
       "Defense": 50,
+      "Sp. Atk": 45,
+      "Sp. Def": 65,
       "Speed": 55
     },
     "description": "No description available.",
@@ -256,6 +290,8 @@
       "HP": 130,
       "Attack": 65,
       "Defense": 60,
+      "Sp. Atk": 110,
+      "Sp. Def": 95,
       "Speed": 65
     },
     "description": "No description available.",
@@ -270,6 +306,8 @@
       "HP": 65,
       "Attack": 65,
       "Defense": 60,
+      "Sp. Atk": 110,
+      "Sp. Def": 95,
       "Speed": 130
     },
     "description": "No description available.",
@@ -284,6 +322,8 @@
       "HP": 65,
       "Attack": 130,
       "Defense": 60,
+      "Sp. Atk": 95,
+      "Sp. Def": 110,
       "Speed": 65
     },
     "description": "No description available.",
@@ -298,6 +338,8 @@
       "HP": 70,
       "Attack": 80,
       "Defense": 50,
+      "Sp. Atk": 35,
+      "Sp. Def": 35,
       "Speed": 35
     },
     "description": "No description available.",
@@ -312,6 +354,8 @@
       "HP": 80,
       "Attack": 100,
       "Defense": 70,
+      "Sp. Atk": 50,
+      "Sp. Def": 60,
       "Speed": 45
     },
     "description": "No description available.",
@@ -326,6 +370,8 @@
       "HP": 90,
       "Attack": 130,
       "Defense": 80,
+      "Sp. Atk": 65,
+      "Sp. Def": 85,
       "Speed": 55
     },
     "description": "No description available.",
@@ -334,13 +380,15 @@
   {
     "name": "Growlithe",
     "types": [
-      "Fire",
-      "Rock"
+      "Rock",
+      "Fire"
     ],
     "base_stats": {
       "HP": 55,
       "Attack": 70,
       "Defense": 45,
+      "Sp. Atk": 70,
+      "Sp. Def": 50,
       "Speed": 60
     },
     "description": "No description available.",
@@ -349,13 +397,15 @@
   {
     "name": "Arcanine",
     "types": [
-      "Fire",
-      "Rock"
+      "Rock",
+      "Fire"
     ],
     "base_stats": {
       "HP": 90,
       "Attack": 110,
       "Defense": 80,
+      "Sp. Atk": 100,
+      "Sp. Def": 80,
       "Speed": 95
     },
     "description": "No description available.",
@@ -370,6 +420,8 @@
       "HP": 100,
       "Attack": 100,
       "Defense": 100,
+      "Sp. Atk": 100,
+      "Sp. Def": 100,
       "Speed": 100
     },
     "description": "No description available.",
@@ -378,13 +430,15 @@
   {
     "name": "Mewtwo",
     "types": [
-      "Psychic",
-      "Fighting"
+      "Fighting",
+      "Psychic"
     ],
     "base_stats": {
       "HP": 106,
       "Attack": 110,
       "Defense": 90,
+      "Sp. Atk": 154,
+      "Sp. Def": 90,
       "Speed": 130
     },
     "description": "No description available.",
@@ -393,14 +447,16 @@
   {
     "name": "Articuno",
     "types": [
-      "Psychic",
       "Ice",
-      "Flying"
+      "Flying",
+      "Psychic"
     ],
     "base_stats": {
       "HP": 90,
       "Attack": 85,
       "Defense": 100,
+      "Sp. Atk": 95,
+      "Sp. Def": 125,
       "Speed": 85
     },
     "description": "No description available.",
@@ -409,14 +465,16 @@
   {
     "name": "Zapdos",
     "types": [
-      "Fighting",
+      "Flying",
       "Electric",
-      "Flying"
+      "Fighting"
     ],
     "base_stats": {
       "HP": 90,
       "Attack": 90,
       "Defense": 85,
+      "Sp. Atk": 125,
+      "Sp. Def": 90,
       "Speed": 100
     },
     "description": "No description available.",
@@ -425,14 +483,16 @@
   {
     "name": "Moltres",
     "types": [
-      "Fire",
+      "Flying",
       "Dark",
-      "Flying"
+      "Fire"
     ],
     "base_stats": {
       "HP": 90,
       "Attack": 100,
       "Defense": 90,
+      "Sp. Atk": 125,
+      "Sp. Def": 85,
       "Speed": 90
     },
     "description": "No description available.",
@@ -441,13 +501,15 @@
   {
     "name": "Lugia",
     "types": [
-      "Psychic",
-      "Flying"
+      "Flying",
+      "Psychic"
     ],
     "base_stats": {
       "HP": 106,
       "Attack": 90,
       "Defense": 130,
+      "Sp. Atk": 90,
+      "Sp. Def": 154,
       "Speed": 110
     },
     "description": "No description available.",
@@ -456,13 +518,15 @@
   {
     "name": "Ho-oh",
     "types": [
-      "Fire",
-      "Flying"
+      "Flying",
+      "Fire"
     ],
     "base_stats": {
       "HP": 106,
       "Attack": 130,
       "Defense": 90,
+      "Sp. Atk": 110,
+      "Sp. Def": 154,
       "Speed": 90
     },
     "description": "No description available.",
@@ -471,13 +535,15 @@
   {
     "name": "Celebi",
     "types": [
-      "Psychic",
-      "Grass"
+      "Grass",
+      "Psychic"
     ],
     "base_stats": {
       "HP": 100,
       "Attack": 100,
       "Defense": 100,
+      "Sp. Atk": 100,
+      "Sp. Def": 100,
       "Speed": 100
     },
     "description": "No description available.",
@@ -492,6 +558,8 @@
       "HP": 39,
       "Attack": 52,
       "Defense": 43,
+      "Sp. Atk": 60,
+      "Sp. Def": 50,
       "Speed": 65
     },
     "description": "No description available.",
@@ -500,13 +568,15 @@
   {
     "name": "Typhlosion",
     "types": [
-      "Fire",
-      "Ghost"
+      "Ghost",
+      "Fire"
     ],
     "base_stats": {
       "HP": 78,
       "Attack": 84,
       "Defense": 78,
+      "Sp. Atk": 109,
+      "Sp. Def": 85,
       "Speed": 100
     },
     "description": "No description available.",
@@ -521,6 +591,8 @@
       "HP": 50,
       "Attack": 65,
       "Defense": 64,
+      "Sp. Atk": 44,
+      "Sp. Def": 48,
       "Speed": 43
     },
     "description": "No description available.",
@@ -535,6 +607,8 @@
       "HP": 50,
       "Attack": 70,
       "Defense": 50,
+      "Sp. Atk": 50,
+      "Sp. Def": 50,
       "Speed": 40
     },
     "description": "No description available.",
@@ -549,6 +623,8 @@
       "HP": 45,
       "Attack": 60,
       "Defense": 40,
+      "Sp. Atk": 70,
+      "Sp. Def": 50,
       "Speed": 45
     },
     "description": "No description available.",
@@ -557,13 +633,15 @@
   {
     "name": "Blaziken",
     "types": [
-      "Fire",
-      "Fighting"
+      "Fighting",
+      "Fire"
     ],
     "base_stats": {
       "HP": 80,
       "Attack": 120,
       "Defense": 70,
+      "Sp. Atk": 110,
+      "Sp. Def": 70,
       "Speed": 80
     },
     "description": "No description available.",
@@ -578,6 +656,8 @@
       "HP": 55,
       "Attack": 68,
       "Defense": 64,
+      "Sp. Atk": 45,
+      "Sp. Def": 55,
       "Speed": 31
     },
     "description": "No description available.",
@@ -592,6 +672,8 @@
       "HP": 44,
       "Attack": 58,
       "Defense": 44,
+      "Sp. Atk": 58,
+      "Sp. Def": 44,
       "Speed": 61
     },
     "description": "No description available.",
@@ -606,6 +688,8 @@
       "HP": 53,
       "Attack": 51,
       "Defense": 53,
+      "Sp. Atk": 61,
+      "Sp. Def": 56,
       "Speed": 40
     },
     "description": "No description available.",
@@ -614,13 +698,15 @@
   {
     "name": "Lucario",
     "types": [
-      "Fighting",
-      "Steel"
+      "Steel",
+      "Fighting"
     ],
     "base_stats": {
       "HP": 70,
       "Attack": 110,
       "Defense": 70,
+      "Sp. Atk": 115,
+      "Sp. Def": 70,
       "Speed": 90
     },
     "description": "No description available.",
@@ -629,13 +715,15 @@
   {
     "name": "Gardevoir",
     "types": [
-      "Psychic",
-      "Fairy"
+      "Fairy",
+      "Psychic"
     ],
     "base_stats": {
       "HP": 68,
       "Attack": 65,
       "Defense": 65,
+      "Sp. Atk": 125,
+      "Sp. Def": 115,
       "Speed": 80
     },
     "description": "No description available.",
@@ -644,13 +732,15 @@
   {
     "name": "Garchomp",
     "types": [
-      "Dragon",
-      "Ground"
+      "Ground",
+      "Dragon"
     ],
     "base_stats": {
       "HP": 108,
       "Attack": 130,
       "Defense": 95,
+      "Sp. Atk": 80,
+      "Sp. Def": 85,
       "Speed": 102
     },
     "description": "No description available.",
@@ -665,6 +755,8 @@
       "HP": 35,
       "Attack": 20,
       "Defense": 65,
+      "Sp. Atk": 40,
+      "Sp. Def": 65,
       "Speed": 20
     },
     "description": "No description available.",
@@ -679,6 +771,8 @@
       "HP": 48,
       "Attack": 48,
       "Defense": 48,
+      "Sp. Atk": 48,
+      "Sp. Def": 48,
       "Speed": 48
     },
     "description": "No description available.",
@@ -694,6 +788,8 @@
       "HP": 70,
       "Attack": 110,
       "Defense": 80,
+      "Sp. Atk": 55,
+      "Sp. Def": 80,
       "Speed": 105
     },
     "description": "No description available.",
@@ -702,13 +798,15 @@
   {
     "name": "Dragonite",
     "types": [
-      "Dragon",
-      "Flying"
+      "Flying",
+      "Dragon"
     ],
     "base_stats": {
       "HP": 91,
       "Attack": 134,
       "Defense": 95,
+      "Sp. Atk": 100,
+      "Sp. Def": 100,
       "Speed": 80
     },
     "description": "No description available.",
@@ -723,6 +821,8 @@
       "HP": 55,
       "Attack": 50,
       "Defense": 45,
+      "Sp. Atk": 135,
+      "Sp. Def": 95,
       "Speed": 120
     },
     "description": "No description available.",
