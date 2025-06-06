@@ -1,75 +1,73 @@
-# Questionare mapped to base_stats (traits)
-
 questions = [
     {
-        "question": "Which of these best describes your vibe on a slow day?",
+        "question": "Which of these best describes you?",
         "stat": "HP",
         "answers": [
-            {"text": "I love to snack all day.", "trait": "Loves to eat",},
-            {"text": "I take long naps whenever I can.", "trait": "Takes plenty of siestas",},
-            {"text": "I could fall asleep mid-conversation.", "trait": "Nods off a lot",},
-            {"text": "I’m always losing my stuff.", "trait": "Scatters things often"},
-            {"text": "I’m super chill and love lounging.", "trait": "Likes to relax"}
+            "Loves to eat",
+            "Takes plenty of siestas",
+            "Nods off a lot",
+            "Scatters things often",
+            "Likes to relax"
         ],
         "weights": [5, 4, 3, 2, 1]
     },
     {
-        "question": "How do you react when someone challenges you or talks back?",
+        "question": "What do you tend to do when faced with a challenge?",
         "stat": "Attack",
         "answers": [
-            {"text": "I stand tall and show my power.", "trait": "Proud of its power",},
-            {"text": "I go all out — no holding back.", "trait": "Likes to thrash about",},
-            {"text": "I snap fast, then cool off.", "trait": "A little quick tempered",},
-            {"text": "I love a good fight — it hypes me up.", "trait": "Likes to fight",},
-            {"text": "My temper is short, no cap.", "trait": "Quick tempered",}
+            "Proud of its power",
+            "Likes to thrash about",
+            "A little quick tempered",
+            "Likes to fight",
+            "Quick tempered"
         ],
         "weights": [5, 4, 3, 2, 1]
     },
     {
-        "question": "How well do you handle pressure or long-term struggles?",
+        "question": "How do you handle stress or pressure?",
         "stat": "Defense",
         "answers": [
-            {"text": "I’ve got a rock-solid mindset.", "trait": "Sturdy body",},
-            {"text": "I can take hits and bounce back.", "trait": "Capable of taking hits",},
-            {"text": "I'm annoyingly persistent.", "trait": "Highly persistent",},
-            {"text": "I can endure almost anything.", "trait": "Good endurance",},
-            {"text": "I never give up — I persevere.", "trait": "Good perseverance",}
+            "Sturdy body",
+            "Capable of taking hits",
+            "Highly persistent",
+            "Good endurance",
+            "Good perseverance"
         ],
         "weights": [5, 4, 3, 2, 1]
     },
     {
-        "question": "What kind of thinker are you?",
+        "question": "How would your friends describe your mind?",
         "stat": "Sp. Atk",
         "answers": [
-            {"text": "I question everything around me.", "trait": "Highly curious",},
-            {"text": "I'm a bit of a playful schemer.", "trait": "Mischievous",},
-            {"text": "I'm strategic and sly.", "trait": "Thoroughly cunning",},
-            {"text": "I daydream and zone out a lot.", "trait": "Often lost in thought",},
-            {"text": "I'm picky and specific about everything.", "trait": "Very finicky",}
+            "Highly curious",
+            "Mischievous",
+            "Thoroughly cunning",
+            "Often lost in thought",
+            "Very finicky"
         ],
         "weights": [5, 4, 3, 2, 1]
     },
     {
-        "question": "How do you handle criticism or emotional stress?",
+        "question": "How do you handle criticism?",
         "stat": "Sp. Def",
         "answers": [
-            {"text": "I stay strong no matter what.", "trait": "Strong willed",},
-            {"text": "I care a lot about my image.", "trait": "Somewhat vain",},
-            {"text": "I push back hard if someone disrespects me.", "trait": "Strongly defiant",},
-            {"text": "Losing really eats me up.", "trait": "Hates to lose",},
-            {"text": "I'm not easily swayed.", "trait": "Somewhat stubborn",}
+            "Strong willed",
+            "Somewhat vain",
+            "Strongly defiant",
+            "Hates to lose",
+            "Somewhat stubborn"
         ],
         "weights": [5, 4, 3, 2, 1]
     },
     {
-        "question": "What’s your energy like day-to-day?",
+        "question": "Which of these best describes your energy?",
         "stat": "Speed",
         "answers": [
-            {"text": "I'm always on the move.", "trait": "Likes to run",},
-            {"text": "I'm super aware of my surroundings.", "trait": "Alert to sounds",},
-            {"text": "I'm chaotic and full of surprises.", "trait": "Impetuous and silly",},
-            {"text": "I’m always the funny one.", "trait": "Somewhat of a clown",},
-            {"text": "If there’s trouble, I’m outta there.", "trait": "Quick to flee",}
+            "Likes to run",
+            "Alert to sounds",
+            "Impetuous and silly",
+            "Somewhat of a clown",
+            "Quick to flee"
         ],
         "weights": [5, 4, 3, 2, 1]
     }
