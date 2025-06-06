@@ -1,73 +1,73 @@
 questions = [
     {
-        "question": "Which of these best describes you?",
+        "question": "Which of these best describes your vibe on a slow day?",
         "stat": "HP",
         "answers": [
-            "Loves to eat",
-            "Takes plenty of siestas",
-            "Nods off a lot",
-            "Scatters things often",
-            "Likes to relax"
+            "I love to snack all day.",
+            "I take long naps whenever I can.",
+            "I could fall asleep mid-conversation.",
+            "I’m always losing my stuff.",
+            "I’m super chill and love lounging."
         ],
         "weights": [5, 4, 3, 2, 1]
     },
     {
-        "question": "What do you tend to do when faced with a challenge?",
+        "question": "How do you react when someone challenges you or talks back?",
         "stat": "Attack",
         "answers": [
-            "Proud of its power",
-            "Likes to thrash about",
-            "Tends to act on impulse",
-            "Likes to fight",
-            "Quick tempered"
+            "I stand tall and show my power.",
+            "I go all out — no holding back.",
+            "I snap fast, then cool off.",
+            "I love a good fight — it hypes me up.",
+            "My temper is short, no cap."
         ],
         "weights": [5, 4, 3, 2, 1]
     },
     {
-        "question": "How do you handle stress or pressure?",
+        "question": "How well do you handle pressure or long-term struggles?",
         "stat": "Defense",
         "answers": [
-            "Sturdy body",
-            "Capable of taking hits",
-            "Highly persistent",
-            "Good endurance",
-            "Good perseverance"
+            "I’ve got a rock-solid mindset.",
+            "I can take hits and bounce back.",
+            "I'm annoyingly persistent.",
+            "I can endure almost anything.",
+            "I never give up — I persevere."
         ],
         "weights": [5, 4, 3, 2, 1]
     },
     {
-        "question": "How would your friends describe your mind?",
+        "question": "What kind of thinker are you?",
         "stat": "Sp. Atk",
         "answers": [
-            "Highly curious",
-            "Mischievous",
-            "Thoroughly cunning",
-            "Often lost in thought",
-            "Very finicky"
+            "I question everything around me.",
+            "I'm a bit of a playful schemer.",
+            "I'm strategic and sly.",
+            "I daydream and zone out a lot.",
+            "I'm picky and specific about everything."
         ],
         "weights": [5, 4, 3, 2, 1]
     },
     {
-        "question": "How do you handle criticism?",
+        "question": "How do you handle criticism or emotional stress?",
         "stat": "Sp. Def",
         "answers": [
-            "Strong willed",
-            "Somewhat vain",
-            "Strongly defiant",
-            "Hates to lose",
-            "Somewhat stubborn"
+            "I stay strong no matter what.",
+            "I care a lot about my image.",
+            "I push back hard if someone disrespects me.",
+            "Losing really eats me up.",
+            "I'm not easily swayed."
         ],
         "weights": [5, 4, 3, 2, 1]
     },
     {
-        "question": "Which of these best describes your energy?",
+        "question": "What’s your energy like day-to-day?",
         "stat": "Speed",
         "answers": [
-            "Likes to run",
-            "Alert to sounds",
-            "Impetuous and silly",
-            "Somewhat of a clown",
-            "Quick to flee"
+            "I'm always on the move.",
+            "I'm super aware of my surroundings.",
+            "I'm chaotic and full of surprises.",
+            "I'm always the funny one.",
+            "If there's trouble, I'm outta there."
         ],
         "weights": [5, 4, 3, 2, 1]
     }
