@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import json
+from questions import questions
 
 # Top 50 "OG" Pokemons
 pokemonNames = [
