@@ -13,7 +13,6 @@
       "Sp. Def": 65,
       "Speed": 45
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/bulbasaur"
   },
   {
@@ -30,7 +29,6 @@
       "Sp. Def": 80,
       "Speed": 60
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/ivysaur"
   },
   {
@@ -47,7 +45,6 @@
       "Sp. Def": 100,
       "Speed": 80
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/venusaur"
   },
   {
@@ -63,7 +60,6 @@
       "Sp. Def": 50,
       "Speed": 65
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/charmander"
   },
   {
@@ -79,15 +75,14 @@
       "Sp. Def": 65,
       "Speed": 80
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/charmeleon"
   },
   {
     "name": "Charizard",
     "types": [
       "Flying",
-      "Fire",
-      "Dragon"
+      "Dragon",
+      "Fire"
     ],
     "base_stats": {
       "HP": 78,
@@ -97,7 +92,6 @@
       "Sp. Def": 85,
       "Speed": 100
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/charizard"
   },
   {
@@ -113,7 +107,6 @@
       "Sp. Def": 64,
       "Speed": 43
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/squirtle"
   },
   {
@@ -129,7 +122,6 @@
       "Sp. Def": 80,
       "Speed": 58
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/wartortle"
   },
   {
@@ -145,7 +137,6 @@
       "Sp. Def": 105,
       "Speed": 78
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/blastoise"
   },
   {
@@ -161,7 +152,6 @@
       "Sp. Def": 50,
       "Speed": 90
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/pikachu"
   },
   {
@@ -178,14 +168,13 @@
       "Sp. Def": 80,
       "Speed": 110
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/raichu"
   },
   {
     "name": "Jigglypuff",
     "types": [
-      "Fairy",
-      "Normal"
+      "Normal",
+      "Fairy"
     ],
     "base_stats": {
       "HP": 115,
@@ -195,7 +184,6 @@
       "Sp. Def": 25,
       "Speed": 20
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/jigglypuff"
   },
   {
@@ -213,7 +201,6 @@
       "Sp. Def": 40,
       "Speed": 90
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/meowth"
   },
   {
@@ -229,14 +216,13 @@
       "Sp. Def": 50,
       "Speed": 55
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/psyduck"
   },
   {
     "name": "Gengar",
     "types": [
-      "Ghost",
-      "Poison"
+      "Poison",
+      "Ghost"
     ],
     "base_stats": {
       "HP": 60,
@@ -246,7 +232,6 @@
       "Sp. Def": 75,
       "Speed": 110
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/gengar"
   },
   {
@@ -262,7 +247,6 @@
       "Sp. Def": 110,
       "Speed": 30
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/snorlax"
   },
   {
@@ -278,7 +262,6 @@
       "Sp. Def": 65,
       "Speed": 55
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/eevee"
   },
   {
@@ -294,7 +277,6 @@
       "Sp. Def": 95,
       "Speed": 65
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/vaporeon"
   },
   {
@@ -310,7 +292,6 @@
       "Sp. Def": 95,
       "Speed": 130
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/jolteon"
   },
   {
@@ -326,7 +307,6 @@
       "Sp. Def": 110,
       "Speed": 65
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/flareon"
   },
   {
@@ -342,7 +322,6 @@
       "Sp. Def": 35,
       "Speed": 35
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/machop"
   },
   {
@@ -358,7 +337,6 @@
       "Sp. Def": 60,
       "Speed": 45
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/machoke"
   },
   {
@@ -374,7 +352,6 @@
       "Sp. Def": 85,
       "Speed": 55
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/machamp"
   },
   {
@@ -391,7 +368,6 @@
       "Sp. Def": 50,
       "Speed": 60
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/growlithe"
   },
   {
@@ -408,7 +384,6 @@
       "Sp. Def": 80,
       "Speed": 95
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/arcanine"
   },
   {
@@ -424,14 +399,13 @@
       "Sp. Def": 100,
       "Speed": 100
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/mew"
   },
   {
     "name": "Mewtwo",
     "types": [
-      "Fighting",
-      "Psychic"
+      "Psychic",
+      "Fighting"
     ],
     "base_stats": {
       "HP": 106,
@@ -441,14 +415,13 @@
       "Sp. Def": 90,
       "Speed": 130
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/mewtwo"
   },
   {
     "name": "Articuno",
     "types": [
-      "Ice",
       "Flying",
+      "Ice",
       "Psychic"
     ],
     "base_stats": {
@@ -459,14 +432,13 @@
       "Sp. Def": 125,
       "Speed": 85
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/articuno"
   },
   {
     "name": "Zapdos",
     "types": [
-      "Flying",
       "Electric",
+      "Flying",
       "Fighting"
     ],
     "base_stats": {
@@ -477,7 +449,6 @@
       "Sp. Def": 90,
       "Speed": 100
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/zapdos"
   },
   {
@@ -495,14 +466,13 @@
       "Sp. Def": 85,
       "Speed": 90
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/moltres"
   },
   {
     "name": "Lugia",
     "types": [
-      "Flying",
-      "Psychic"
+      "Psychic",
+      "Flying"
     ],
     "base_stats": {
       "HP": 106,
@@ -512,7 +482,6 @@
       "Sp. Def": 154,
       "Speed": 110
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/lugia"
   },
   {
@@ -529,14 +498,13 @@
       "Sp. Def": 154,
       "Speed": 90
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/ho-oh"
   },
   {
     "name": "Celebi",
     "types": [
-      "Grass",
-      "Psychic"
+      "Psychic",
+      "Grass"
     ],
     "base_stats": {
       "HP": 100,
@@ -546,7 +514,6 @@
       "Sp. Def": 100,
       "Speed": 100
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/celebi"
   },
   {
@@ -562,7 +529,6 @@
       "Sp. Def": 50,
       "Speed": 65
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/cyndaquil"
   },
   {
@@ -579,7 +545,6 @@
       "Sp. Def": 85,
       "Speed": 100
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/typhlosion"
   },
   {
@@ -595,7 +560,6 @@
       "Sp. Def": 48,
       "Speed": 43
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/totodile"
   },
   {
@@ -611,7 +575,6 @@
       "Sp. Def": 50,
       "Speed": 40
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/mudkip"
   },
   {
@@ -627,7 +590,6 @@
       "Sp. Def": 50,
       "Speed": 45
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/torchic"
   },
   {
@@ -644,7 +606,6 @@
       "Sp. Def": 70,
       "Speed": 80
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/blaziken"
   },
   {
@@ -660,7 +621,6 @@
       "Sp. Def": 55,
       "Speed": 31
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/turtwig"
   },
   {
@@ -676,7 +636,6 @@
       "Sp. Def": 44,
       "Speed": 61
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/chimchar"
   },
   {
@@ -692,7 +651,6 @@
       "Sp. Def": 56,
       "Speed": 40
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/piplup"
   },
   {
@@ -709,14 +667,13 @@
       "Sp. Def": 70,
       "Speed": 90
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/lucario"
   },
   {
     "name": "Gardevoir",
     "types": [
-      "Fairy",
-      "Psychic"
+      "Psychic",
+      "Fairy"
     ],
     "base_stats": {
       "HP": 68,
@@ -726,7 +683,6 @@
       "Sp. Def": 115,
       "Speed": 80
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/gardevoir"
   },
   {
@@ -743,7 +699,6 @@
       "Sp. Def": 85,
       "Speed": 102
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/garchomp"
   },
   {
@@ -759,7 +714,6 @@
       "Sp. Def": 65,
       "Speed": 20
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/togepi"
   },
   {
@@ -775,14 +729,13 @@
       "Sp. Def": 48,
       "Speed": 48
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/ditto"
   },
   {
     "name": "Scyther",
     "types": [
-      "Bug",
-      "Flying"
+      "Flying",
+      "Bug"
     ],
     "base_stats": {
       "HP": 70,
@@ -792,7 +745,6 @@
       "Sp. Def": 80,
       "Speed": 105
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/scyther"
   },
   {
@@ -809,7 +761,6 @@
       "Sp. Def": 100,
       "Speed": 80
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/dragonite"
   },
   {
@@ -825,7 +776,6 @@
       "Sp. Def": 95,
       "Speed": 120
     },
-    "description": "No description available.",
     "url": "https://pokemondb.net/pokedex/alakazam"
   }
 ]

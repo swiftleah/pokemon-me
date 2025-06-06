@@ -44,16 +44,11 @@ for name in pokemonNames:
         if stat_name in ["HP", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed"]:
             base_stats[stat_name] = int(stat_value_cell.text.strip())
 
-    try:
-        description = soup.select_one("#dex-flavor .resp-scroll p").text.strip()
-    except:
-        description = "No description available."
 
     pokemonData.append({
         "name": pokeName,
         "types": types,
         "base_stats": base_stats,
-        "description": description,
         "url": url
     })
 
