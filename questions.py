@@ -17,7 +17,7 @@ questions = [
         "answers": [
             "Proud of its power",
             "Likes to thrash about",
-            "A little quick tempered",
+            "Tends to act on impulse",
             "Likes to fight",
             "Quick tempered"
         ],
