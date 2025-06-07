@@ -30,21 +30,22 @@ def stats_to_vector(stats_dict):
         stats_dict["Speed"]
     ]
 
-user_vector = np.array([stats_to_vector(user_stats)])
+def find_best_match(user_stats):
+    user_vector = np.array([stats_to_vector(user_stats)])
 
 
-most_similar = None
-# set lowest similarity possible (perpendicular vectors = -1)
-highest_similarity = -1
+    most_similar = None
+    # set lowest similarity possible (perpendicular vectors = -1)
+    highest_similarity = -1
 
-for pokemon in pokemon_data:
-    pokemon_vector = np.array([stats_to_vector(pokemon["base_stats"])])
-    similarity = cosine_similarity(user_vector, pokemon_vector)[0][0]
+    for pokemon in pokemon_data:
+        pokemon_vector = np.array([stats_to_vector(pokemon["base_stats"])])
+        similarity = cosine_similarity(user_vector, pokemon_vector)[0][0]
 
-    if similarity > highest_similarity:
-        highest_similarity = similarity
-        most_similar_pokemon = pokemon
+        if similarity > highest_similarity:
+            highest_similarity = similarity
+            most_similar_pokemon = pokemon
 
-print("\nYou matched with:", most_similar_pokemon["name"])
-print("Base stats:", most_similar_pokemon["base_stats"])
-print(f"Cosine similarity score: {highest_similarity:.4f}")
+    print("\nYou matched with:", most_similar_pokemon["name"])
+    print("Base stats:", most_similar_pokemon["base_stats"])
+    print(f"Cosine similarity score: {highest_similarity:.4f}")
