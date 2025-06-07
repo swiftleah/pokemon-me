@@ -49,3 +49,5 @@ def find_best_match(user_stats):
     print("\nYou matched with:", most_similar_pokemon["name"])
     print("Base stats:", most_similar_pokemon["base_stats"])
     print(f"Cosine similarity score: {highest_similarity:.4f}")
+
+    return most_similar_pokemon
