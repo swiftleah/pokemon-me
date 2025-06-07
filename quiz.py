@@ -16,7 +16,8 @@ def run_quiz():
 
     # print questions
     for idx, question in enumerate(questions):
-        print(f"\nQuestion {idx + 1}: {question['question']}")
+        print(f"\nQuestion {idx + 1}: {question['question']}\n")
+
 
         # print answer options
         for i, option in enumerate(question["answers"]):
@@ -25,7 +26,7 @@ def run_quiz():
         # safe input
         while True:
             try:
-                choice = int(input("Choose 1-5: "))
+                choice = int(input("\nChoose 1-5: "))
                 if 1 <= choice <= len(question["answers"]):
                     break
                 else:
@@ -39,11 +40,6 @@ def run_quiz():
         weight = question["weights"][choice - 1]
         stat_scores[stat] += weight
 
-
-    print("\nYour base stat profile:")
-    for stat, score in stat_scores.items():
-        print(f"{stat}: {score}")
-
     return stat_scores
 
 if __name__ == "__main__":
@@ -52,11 +48,3 @@ if __name__ == "__main__":
     from matcher import find_best_match
 
     matched_pokemon = find_best_match(user_stats)
-
-    print("🎉 Based on your answers, you're most like:")
-    print(f"✨ {matched_pokemon['name']} ✨")
-    print(f"🔗 More info: {matched_pokemon['url']}")
-    print("📊 Base Stats:")
-    for stat_name, value in matched_pokemon["base_stats"].items():
-        print(f"  {stat_name}: {value}")
-    print("🧬 Types:", ", ".join(matched_pokemon["types"]))

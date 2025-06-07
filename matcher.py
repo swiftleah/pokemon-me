@@ -46,8 +46,23 @@ def find_best_match(user_stats):
             highest_similarity = similarity
             most_similar_pokemon = pokemon
 
-    print("\nYou matched with:", most_similar_pokemon["name"])
-    print("Base stats:", most_similar_pokemon["base_stats"])
-    print(f"Cosine similarity score: {highest_similarity:.4f}")
+    # Beautify terminal result layout
+    name = most_similar_pokemon["name"]
+    stats = most_similar_pokemon["base_stats"]
+    types = ", ".join(most_similar_pokemon["types"])
+    url = most_similar_pokemon["url"]
+    
+    print("\n🎉 Based on your answers, the Pokémon you're most like is...\n")
+    print("╭" + "─" * 34 + "╮")
+    print(f"│{'✨  ' + name + '  ✨':^32}│")
+    print("╰" + "─" * 34 + "╯\n")
+
+    print(f"🧬 Type(s): {types}")
+    print("📊 Base Stats:")
+    for stat_name, value in stats.items():
+        print(f"   - {stat_name}: {value}")
+
+    print(f"\n🔗 More Info: {url}")
+
 
     return most_similar_pokemon
