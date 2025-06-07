@@ -44,5 +44,19 @@ def run_quiz():
     for stat, score in stat_scores.items():
         print(f"{stat}: {score}")
 
+    return stat_scores
+
 if __name__ == "__main__":
-    run_quiz()
+    user_stats = run_quiz()
+
+    from matcher import find_best_match
+
+    matched_pokemon = find_best_match(user_stats)
+
+    print("🎉 Based on your answers, you're most like:")
+    print(f"✨ {matched_pokemon['name']} ✨")
+    print(f"🔗 More info: {matched_pokemon['url']}")
+    print("📊 Base Stats:")
+    for stat_name, value in matched_pokemon["base_stats"].items():
+        print(f"  {stat_name}: {value}")
+    print("🧬 Types:", ", ".join(matched_pokemon["types"]))

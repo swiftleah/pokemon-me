@@ -10,14 +10,14 @@ with open("main_pokemon_data.json", "r") as file:
     pokemon_data = json.load(file)
 
 # temp dummy data
-user_stats = {
-    "HP": 5,
-    "Attack": 3,
-    "Defense": 4,
-    "Sp. Atk": 2,
-    "Sp. Def": 2,
-    "Speed": 1
-}
+# user_stats = {
+#     "HP": 5,
+#     "Attack": 3,
+#     "Defense": 4,
+#     "Sp. Atk": 2,
+#     "Sp. Def": 2,
+#     "Speed": 1
+# }
 
 # convert stats to vector
 def stats_to_vector(stats_dict):
