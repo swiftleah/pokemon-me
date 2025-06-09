@@ -42,9 +42,25 @@ def run_quiz():
 
     return stat_scores
 
-if __name__ == "__main__":
-    user_stats = run_quiz()
+from matcher import find_best_match
 
-    from matcher import find_best_match
+user_stats = run_quiz()
+matched_pokemon = find_best_match(user_stats)
 
-    matched_pokemon = find_best_match(user_stats)
+# Display result
+name = matched_pokemon["name"]
+stats = matched_pokemon["base_stats"]
+types = ", ".join(matched_pokemon["types"])
+url = matched_pokemon["url"]
+
+print("\n🎉 Based on your answers, the Pokémon you're most like is...\n")
+print("╭" + "─" * 34 + "╮")
+print(f"│{'✨  ' + name + '  ✨':^32}│")
+print("╰" + "─" * 34 + "╯\n")
+
+print(f"🧬 Type(s): {types}")
+print("📊 Base Stats:")
+for stat_name, value in stats.items():
+    print(f"   - {stat_name}: {value}")
+
+print(f"\n🔗 More Info: {url}")

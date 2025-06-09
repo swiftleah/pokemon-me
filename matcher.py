@@ -2,6 +2,7 @@
 # cosine similarity
 
 from sklearn.metrics.pairwise import cosine_similarity
+from scipy.spatial.distance import euclidean
 import numpy as np
 import json
 
@@ -9,60 +10,53 @@ import json
 with open("main_pokemon_data.json", "r") as file:
     pokemon_data = json.load(file)
 
-# temp dummy data
-# user_stats = {
-#     "HP": 5,
-#     "Attack": 3,
-#     "Defense": 4,
-#     "Sp. Atk": 2,
-#     "Sp. Def": 2,
-#     "Speed": 1
-# }
 
-# convert stats to vector
-def stats_to_vector(stats_dict):
-    return [
-        stats_dict["HP"],
-        stats_dict["Attack"],
-        stats_dict["Defense"],
-        stats_dict["Sp. Atk"],
-        stats_dict["Sp. Def"],
-        stats_dict["Speed"]
-    ]
+# define order
+STAT_ORDER = ["HP", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed"]
 
+# normalize stats into ratios
+def normalize_stats(stats_dict):
+    '''
+    -divide stats by combined total
+    -include safe protocol for combined total of 0
+    '''
+    total = sum(stats_dict.values())
+    if total == 0:
+        return {stat: 0 for stat in STAT_ORDER}
+    return {stat: stats_dict[stat] / total for stat in STAT_ORDER}
+
+
+# calculate cosine similarity & euclidean distance between user_stat vector & pokemon stat vector
+def calculate_similarities(user_vector, pokemon_vector):
+    user_vec = np.array(user_vector).reshape(1, -1)
+    poke_vec = np.array(pokemon_vector).reshape(1, -1)
+
+    cosine_sim = cosine_similarity(user_vec, poke_vec)[0][0]
+    euclidean_dist = euclidean(user_vector, pokemon_vector)
+
+    return cosine_sim, euclidean_dist
+
+# 3. Match function
 def find_best_match(user_stats):
-    user_vector = np.array([stats_to_vector(user_stats)])
+    user_norm_stats = normalize_stats(user_stats)
+    user_vector = [user_norm_stats[stat] for stat in STAT_ORDER]
 
+    best_pokemon = None
+    best_score = -float("inf")
 
-    most_similar = None
-    # set lowest similarity possible (perpendicular vectors = -1)
-    highest_similarity = -1
+    # Weight tuning (1.0 = full cosine, 0.0 = full euclidean)
+    weight_cosine = 0.7
+    weight_euclid = 0.3
 
     for pokemon in pokemon_data:
-        pokemon_vector = np.array([stats_to_vector(pokemon["base_stats"])])
-        similarity = cosine_similarity(user_vector, pokemon_vector)[0][0]
+        poke_norm_stats = normalize_stats(pokemon["base_stats"])
+        poke_vector = [poke_norm_stats[stat] for stat in STAT_ORDER]
 
-        if similarity > highest_similarity:
-            highest_similarity = similarity
-            most_similar_pokemon = pokemon
+        cos_sim, euc_dist = calculate_similarities(user_vector, poke_vector)
+        combined_score = weight_cosine * cos_sim + weight_euclid * (-euc_dist)
 
-    # Beautify terminal result layout
-    name = most_similar_pokemon["name"]
-    stats = most_similar_pokemon["base_stats"]
-    types = ", ".join(most_similar_pokemon["types"])
-    url = most_similar_pokemon["url"]
-    
-    print("\n🎉 Based on your answers, the Pokémon you're most like is...\n")
-    print("╭" + "─" * 34 + "╮")
-    print(f"│{'✨  ' + name + '  ✨':^32}│")
-    print("╰" + "─" * 34 + "╯\n")
+        if combined_score > best_score:
+            best_score = combined_score
+            best_pokemon = pokemon
 
-    print(f"🧬 Type(s): {types}")
-    print("📊 Base Stats:")
-    for stat_name, value in stats.items():
-        print(f"   - {stat_name}: {value}")
-
-    print(f"\n🔗 More Info: {url}")
-
-
-    return most_similar_pokemon
+    return best_pokemon
